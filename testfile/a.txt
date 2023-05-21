@@ -1,0 +1,4 @@
+fruit, number
+Orange, 4
+Apple, 2
+Watermelon, 5
