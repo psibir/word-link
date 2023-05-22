@@ -6,7 +6,7 @@ setup(
     description='Word Link Generator',
     author='Trevor Bloomfield',
     author_email='bloomfieldtm@gmail.com',
-    packages=['word_link'],
+    packages=['wordlink'],
     install_requires=[
         'fuzzysearch',
         'prettytable',
