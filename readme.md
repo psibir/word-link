@@ -1,15 +1,15 @@
-## word-link
+# word-link
 
 A Word Link Generator that searches for a given term in multiple text files within a specified directory and generates links to the matched occurrences. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
 
-### Prerequisites
+## Prerequisites
 
 - Python 3.x
 - `argparse` library
 - `fuzzysearch` library
 - `prettytable` library
 
-### Installation
+## Installation
 
 1. Clone the repository or download the script file.
 2. Install the required libraries by running the following command:
@@ -18,7 +18,7 @@ A Word Link Generator that searches for a given term in multiple text files with
    pip install -r requirements.txt
    ```
 
-### Usage
+## Usage
 
 Run the script using the following command:
 
@@ -46,7 +46,7 @@ Search for the term "example" in the directory "documents" and save the results 
 
 See the `/examples/readme.md` for instructions on running a demo of the word-link module.
 
-### Output
+## Output
 
 The tool generates two types of output depending on the presence of the output file option:
 
@@ -54,7 +54,7 @@ The tool generates two types of output depending on the presence of the output f
 
 2. **Console Display:** If no output file is provided, the tool displays the results in the console using a formatted table. The console output includes columns for the file name, line number, and corresponding text.
 
-### Tests
+## Tests
 
 The tool includes a test suite to ensure its functionality. The `main_test.py` file contains the unit tests. Here's a description of what each test case in `main_test.py` is testing:
 
@@ -68,11 +68,11 @@ To run the tests, execute the following command:
 python main_test.py
 ```
 
-### Limitations
+## Limitations
 
 - The tool searches for the specified term within all text files (`.txt`) in the given directory and its subdirectories. It does not support searching within other file formats.
 - The maximum Levenshtein distance for finding near matches is set to 1. This can be adjusted by modifying the `max_l_dist` parameter in the `find_near_matches` function call within the `find_word_locations` method.
 
-### License
+## License
 
 This code is provided under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and use it according to your needs.
