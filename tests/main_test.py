@@ -1,9 +1,13 @@
 import unittest
 import os
-from main import WordLinkGenerator
+import sys
 from io import StringIO
 from contextlib import redirect_stdout
 
+# Add the parent directory to the Python path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from main import WordLinkGenerator
 
 
 class WordLinkGeneratorTest(unittest.TestCase):
