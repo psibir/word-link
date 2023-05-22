@@ -2,18 +2,18 @@ from setuptools import setup
 
 setup(
     name='wordlink',
-    version='1.0',
-    description='Word Link Generator',
+    version='1.0.0',
     author='Trevor Bloomfield',
     author_email='bloomfieldtm@gmail.com',
-    packages=['word_link'],
+    description='Word Link Generator',
+    py_modules=['wordlink'],
     install_requires=[
         'fuzzysearch',
-        'prettytable',
+        'prettytable'
     ],
     entry_points={
         'console_scripts': [
-            'word-link = word_link.main:main',
-        ],
+            'wordlink=wordlink:main'
+        ]
     },
 )
