@@ -42,7 +42,7 @@ We welcome pull requests from contributors of all skill levels. To contribute co
 
 Once your pull request is submitted, it will be reviewed by the project maintainers. They may provide feedback, request modifications, or merge the changes into the main repository.
 
-**Note:** By submitting a pull request, you agree to license your contribution under the [MIT License](license.md).
+**Note:** By submitting a pull request, you agree to license your contribution under the [MIT License](license.txt).
 
 ## License
-WordLink is licensed under the [MIT License](license.md). By contributing to this project, you agree to license your contributions under the same license. Make sure to familiarize yourself with the terms of the license before making any contributions.
+WordLink is licensed under the [MIT License](license.txt). By contributing to this project, you agree to license your contributions under the same license. Make sure to familiarize yourself with the terms of the license before making any contributions.
