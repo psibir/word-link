@@ -1,4 +1,4 @@
-# word-link
+# wordlink
 
 A Word Link Generator that searches for a given term in multiple text files within a specified directory and generates links to the matched occurrences. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
 
@@ -44,7 +44,7 @@ Search for the term "example" in the directory "documents" and save the results 
    python main.py example documents -o output.html
    ```
 
-See the `/examples/readme.md` for instructions on running a demo of the word-link module.
+See the `/examples/readme.md` for instructions on running a demo of the wordlink module.
 
 ## Output
 
