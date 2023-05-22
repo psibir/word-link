@@ -32,17 +32,19 @@ python main.py <search_term> <search_directory> [-o OUTPUT_FILE]
 
 **Examples:**
 
-1. Search for the term "example" in the current directory and display the results in the console:
+Search for the term "example" in the current directory and display the results in the console:
 
    ```bash
    python main.py example .
    ```
 
-2. Search for the term "example" in the directory "documents" and save the results as an HTML file named "output.html":
+Search for the term "example" in the directory "documents" and save the results as an HTML file named "output.html":
 
    ```bash
    python main.py example documents -o output.html
    ```
+
+See the `/examples/readme.md` for instructions on running a demo of the word-link module.
 
 ### Output
 
