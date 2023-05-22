@@ -2,3 +2,5 @@ attrs==23.1.0
 fuzzysearch==0.7.3
 prettytable==3.7.0
 wcwidth==0.2.6
+wheel==0.37.0
+
