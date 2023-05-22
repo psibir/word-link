@@ -26,7 +26,7 @@ class WordLinkGenerator:
         for root, dirs, files in os.walk(self.search_directory):
             for file in files:
                 if file.endswith('.txt'):
-                    file_path = os.path.join(root, file)
+                    file_path = os.path.abspath(os.path.join(root, file))
                     word_locations = self.find_word_locations(file_path)
                     all_word_locations.extend(word_locations)
 
@@ -40,7 +40,13 @@ class WordLinkGenerator:
         for location in word_locations:
             file_path, line_num, line_text, word_index = location
             link = f'<a href="{file_path}#L{line_num}">{line_text}</a>'
-            output_lines.append(f'<tr><td>{file_path}</td><td>{line_num}</td><td>{link}</td></tr>')
+            output_lines.append(
+                f'    <tr>\n'
+                f'        <td>{file_path}</td>\n'
+                f'        <td>{line_num}</td>\n'
+                f'        <td>{link}</td>\n'
+                f'    </tr>'
+)
 
         output_text = '''
         <html>
@@ -86,7 +92,11 @@ def main():
 
     args = parser.parse_args()
 
-    generator = WordLinkGenerator(args.search_term, args.search_directory, args.output_file)
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    search_directory = os.path.join(current_dir, args.search_directory)
+    output_file = os.path.join(current_dir, args.output_file) if args.output_file else None
+
+    generator = WordLinkGenerator(args.search_term, search_directory, output_file)
     generator.generate_links()
 
 
