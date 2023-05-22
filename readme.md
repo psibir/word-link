@@ -1,6 +1,7 @@
 # wordlink
 
 A Word Link Generator that searches for a given term in multiple text files within a specified directory and generates links to the matched occurrences. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
+The `__main__.py` file is located in the `/wordlink/` directory.
 
 ## Prerequisites
 
@@ -15,7 +16,7 @@ A Word Link Generator that searches for a given term in multiple text files with
 2. Install the required libraries by running the following command:
 
    ```bash
-   pip install -r requirements.txt
+   pip install wordlink
    ```
 
 ## Usage
@@ -23,7 +24,7 @@ A Word Link Generator that searches for a given term in multiple text files with
 Run the script using the following command:
 
 ```bash
-python main.py <search_term> <search_directory> [-o OUTPUT_FILE]
+python3 wordlink <search_term> <search_directory> [-o OUTPUT_FILE]
 ```
 
 - `<search_term>`: The term to search for within the text files.
@@ -35,13 +36,13 @@ python main.py <search_term> <search_directory> [-o OUTPUT_FILE]
 Search for the term "example" in the current directory and display the results in the console:
 
    ```bash
-   python main.py example .
+   python3 wordlink example .
    ```
 
 Search for the term "example" in the directory "documents" and save the results as an HTML file named "output.html":
 
    ```bash
-   python main.py example documents -o output.html
+   python3 wordlink example documents -o output.html
    ```
 
 See the `/examples/readme.md` for instructions on running a demo of the wordlink module.
@@ -62,10 +63,10 @@ The tool includes a test suite to ensure its functionality. The `main_test.py` f
 - `test_generate_links_output_file`: This test checks if the `generate_links` method generates the expected output file in HTML format when an output file name is provided.
 - `test_generate_links_console`: This test validates that the `generate_links` method produces the expected console output when no output file name is provided.
 
-To run the tests, execute the following command:
+To run the tests, navigate to the `/tests/` directpry and execute the following command:
 
 ```bash
-python main_test.py
+python3 main_test.py
 ```
 
 ## Limitations

@@ -46,7 +46,7 @@ class WordLinkGenerator:
                 f'        <td>{line_num}</td>\n'
                 f'        <td>{link}</td>\n'
                 f'    </tr>'
-)
+            )
 
         output_text = '''
         <html>

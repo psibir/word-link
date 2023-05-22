@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='wordlink',
-    version='1.0.0',
+    version='1.0.1',
     author='Trevor Bloomfield',
     author_email='bloomfieldtm@gmail.com',
     description='Word Link Generator',
