@@ -65,7 +65,7 @@ The tool includes a test suite to ensure its functionality. The `main_test.py` f
 - `test_generate_links_output_file`: This test checks if the `generate_links` method generates the expected output file in HTML format when an output file name is provided.
 - `test_generate_links_console`: This test validates that the `generate_links` method produces the expected console output when no output file name is provided.
 
-To run the tests, navigate to the `/tests/` directpry and execute the following command:
+To run the tests, navigate to the `/tests/` directory and execute the following command:
 
 ```bash
 python3 main_test.py
