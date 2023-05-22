@@ -41,7 +41,7 @@ python main.py <search_term> <search_directory> [-o OUTPUT_FILE]
 2. Search for the term "example" in the directory "documents" and save the results as an HTML file named "output.html":
 
    ```bash
-   python word_link_generator.py example documents -o output.html
+   python main.py example documents -o output.html
    ```
 
 ### Output
