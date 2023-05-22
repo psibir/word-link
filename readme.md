@@ -52,6 +52,20 @@ The tool generates two types of output depending on the presence of the output f
 
 2. **Console Display:** If no output file is provided, the tool displays the results in the console using a formatted table. The console output includes columns for the file name, line number, and corresponding text.
 
+### Tests
+
+The tool includes a test suite to ensure its functionality. The `main_test.py` file contains the unit tests. Here's a description of what each test case in `main_test.py` is testing:
+
+- `test_find_word_locations`: This test verifies that the `find_word_locations` method correctly identifies the locations of the given search term within a test file.
+- `test_generate_links_output_file`: This test checks if the `generate_links` method generates the expected output file in HTML format when an output file name is provided.
+- `test_generate_links_console`: This test validates that the `generate_links` method produces the expected console output when no output file name is provided.
+
+To run the tests, execute the following command:
+
+```bash
+python main_test.py
+```
+
 ### Limitations
 
 - The tool searches for the specified term within all text files (`.txt`) in the given directory and its subdirectories. It does not support searching within other file formats.
