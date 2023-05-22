@@ -1,0 +1,48 @@
+# Contribution Guidelines
+
+Thank you for considering contributing to the wordlink repository! We appreciate your interest and welcome any contributions you would like to make. Please take a moment to review the guidelines outlined below to ensure a smooth and effective collaboration.
+
+## Table of Contents
+- [Code of Conduct](#code-of-conduct)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+  - [Reporting Issues](#reporting-issues)
+  - [Feature Requests](#feature-requests)
+  - [Pull Requests](#pull-requests)
+- [License](#license)
+
+## Code of Conduct
+We expect all contributors to adhere to the project's [Code of Conduct](conduct.md). Please familiarize yourself with the guidelines and ensure respectful and inclusive behavior within the project community.
+
+## Getting Started
+To begin contributing to WordLink, you need to perform the following steps:
+
+1. Fork the repository from the [psibir/wordlink](https://github.com/psibir/wordlink) repo to your GitHub account.
+2. Clone your forked repository locally: `git clone https://github.com/your-username/wordlink.git`.
+3. Install the necessary dependencies by following the instructions provided in the project's documentation.
+
+## Contributing
+There are several ways you can contribute to the WordLink project:
+
+### Reporting Issues
+If you encounter any problems or have suggestions for improvements, please submit an issue on the [issue tracker](https://github.com/psibir/wordlink/issues). When reporting an issue, please provide as much detail as possible, including steps to reproduce the problem, expected behavior, and any relevant error messages or logs.
+
+### Feature Requests
+If you have ideas for new features or enhancements, we encourage you to submit a feature request on the [issue tracker](https://github.com/psibir/wordlink/issues). Clearly describe the proposed functionality and explain how it would benefit the project.
+
+### Pull Requests
+We welcome pull requests from contributors of all skill levels. To contribute code changes, please follow these steps:
+
+1. Create a new branch from the `main` branch with a descriptive name for your feature or bug fix: `git checkout -b my-new-feature`.
+2. Implement your changes, ensuring code quality, adherence to existing coding conventions, and adequate test coverage.
+3. Commit your changes with a clear and concise commit message: `git commit -am 'Add new feature'`.
+4. Push your branch to your forked repository: `git push origin my-new-feature`.
+5. Open a pull request against the `main` branch of the [psibir/wordlink](https://github.com/psibir/wordlink) repository.
+6. Ensure that your pull request provides a comprehensive description of the changes you made and their purpose.
+
+Once your pull request is submitted, it will be reviewed by the project maintainers. They may provide feedback, request modifications, or merge the changes into the main repository.
+
+**Note:** By submitting a pull request, you agree to license your contribution under the [MIT License](license.md).
+
+## License
+WordLink is licensed under the [MIT License](license.md). By contributing to this project, you agree to license your contributions under the same license. Make sure to familiarize yourself with the terms of the license before making any contributions.
