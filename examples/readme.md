@@ -8,7 +8,7 @@ Assuming you have a directory structure like this:
 
 ```
 - wordlink/
-  - __main__.py
+  - main.py
 - examples/
   - testdir/
     - a.txt
