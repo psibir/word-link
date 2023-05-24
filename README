@@ -1,6 +1,6 @@
 # wordlink
 
-![wordlink logo](/wordlink_logo.png)
+![wordlink logo](/logo.png)
 
 A Word Link Generator that searches for a given term in multiple text files within a specified directory and generates links to the matched occurrences. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
 The `__main__.py` file is located in the `/wordlink/` directory.
@@ -20,6 +20,8 @@ The `__main__.py` file is located in the `/wordlink/` directory.
    ```bash
    pip install wordlink
    ```
+
+See [INSTALL](INSTALL) for instructions to clone from GitHub.
 
 ## Usage
 
@@ -78,4 +80,4 @@ python3 main_test.py
 
 ## License
 
-This code is provided under the [MIT License](https://opensource.org/licenses/MIT). Feel free to modify and use it according to your needs.
+This code is provided under the [MIT License](LICENSE). Feel free to modify and use it according to your needs.

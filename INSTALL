@@ -1,0 +1,43 @@
+To install the wordlink package from the provided GitHub repository, you can follow these installation instructions:
+
+1. Open your command line interface (e.g., Terminal, Command Prompt).
+
+2. Navigate to the directory where you want to clone the repository.
+
+3. Clone the repository using the `git clone` command:
+   ```
+   git clone https://github.com/psibir/wordlink.git
+   ```
+
+4. Change your current directory to the cloned repository:
+   ```
+   cd wordlink
+   ```
+
+5. Create a virtual environment (optional but recommended) to isolate the package's dependencies:
+   ```
+   python3 -m venv venv
+   ```
+
+6. Activate the virtual environment:
+   - For Windows:
+     ```
+     venv\Scripts\activate
+     ```
+   - For macOS/Linux:
+     ```
+     source venv/bin/activate
+     ```
+
+7. Install the required dependencies using pip:
+   ```
+   pip install -r requirements.txt
+   ```
+
+8. Once the installation is complete, you can use the Wordlink package.
+
+Make sure you have Git installed on your system before running the `git` commands.
+
+These instructions assume you have Python already installed on your system. If not, please install Python from the official Python website (https://www.python.org) before proceeding with the above steps.
+
+Note that specific installation steps may vary depending on your operating system and Python configuration.
