@@ -2,7 +2,7 @@
 
 ![wordlink logo](/logo.png)
 
-A Word Link Generator that searches for a given term in multiple text files within a specified directory and generates links to the matched occurrences. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
+A tool that searches for a given term in multiple files within a directory and returns links to the matched occurrences within their sentence context. It provides two output options: an HTML file with clickable links or a console display using a formatted table.
 The `__main__.py` file is located in the `/wordlink/` directory.
 
 ## Prerequisites
